@@ -96,7 +96,7 @@ return {
 			        z_hpa = z_hpa - 10 / 100 * z_range
 		        elseif (z_wind == "SW") then
 			        z_hpa = z_hpa - 6 / 100 * z_range
-                elseif (z_wind == "WSW") then
+                        elseif (z_wind == "WSW") then
 			        z_hpa = z_hpa - 4.5 / 100 * z_range
 		        elseif (z_wind == "W") then
 			        z_hpa = z_hpa - 3 / 100 * z_range
@@ -158,7 +158,7 @@ return {
 				        z_hpa = z_hpa + 7 / 100 * z_range
 			        elseif (z_trend == 2) then  -- Давление падает
 				        z_hpa = z_hpa - 7 / 100 * z_range
-                    end
+                                end
 		        end
 	        end 	-- Конец Север / Юг
 
